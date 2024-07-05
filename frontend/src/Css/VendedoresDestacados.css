@@ -1,0 +1,91 @@
+.Contenedor-Vendedores-Destacados {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1200px; 
+    justify-content: center;
+    height: auto;
+    justify-content: space-between;
+}
+
+.Contenedor-Card-Vendedores-Destacados {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #eeeeee;
+    width: 340px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Contenedor-Imagen-Vendedor {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.Imagen-Vendedores {
+    width: 100%;
+    height:350px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.Contenedor-Card-Vendedores-Destacados  .Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 15px;
+}
+
+.Contenedor-Card-Vendedores-Destacados  .Contenedor-Imagen-Vendedor:hover .Overlay {
+    opacity: 2;
+}
+
+.Contenedor-Card-Vendedores-Destacados .Texto-Centro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(252, 252, 252);
+    text-align: center;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.Contenedor-Card-Vendedores-Destacados  .Boton-Centro {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.Contenedor-Card-Vendedores-Destacados .Contenedor-Imagen-Vendedor:hover .Texto-Centro,
+.Contenedor-Card-Vendedores-Destacados .Contenedor-Imagen-Vendedor:hover .Boton-Centro {
+    opacity: 1;
+}
+
+/* Media Query */
+@media only screen and (max-width: 970px) {
+    .Contenedor-Card-Vendedores-Destacados {
+        width: 330px;
+        height: 200px;
+    }
+}

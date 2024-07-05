@@ -1,0 +1,81 @@
+.Contenedor-Principal{
+    background-color:white;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.Login{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+Label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 360px;
+    height: 40px;
+    padding: 8px;
+    background-color:#eeeeee;
+    border: 1px solid black;
+}
+.Boton-Formulario{
+    width: 360px;
+    border:none;
+    border-radius: 9px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #7abaf8;
+}
+.Olvidar-Contraseña{
+    padding-top: 10px;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+.Olvidar-Contraseña:hover{
+    color: blue;
+}
+.Footer-Formulario{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 35px;
+}
+.Validacion{
+    text-align: center;
+    width: 350px;
+    margin: 10px;
+    color: red;
+    font-weight: bold;
+}
+.Input-Ojo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+.Boton-Ojo{
+    position: absolute;
+    margin-right: 10px;
+}
+.Icono-Contraseña {
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.Registrate:hover{
+color: blue;
+cursor: pointer;
+}

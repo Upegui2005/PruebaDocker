@@ -1,0 +1,44 @@
+.Footer{
+margin-top: 80px;
+display: flex;
+flex-direction: row;
+}
+.Imagen-Footer{
+    width: 100px;
+    height: 20;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+.Informacion-Footer{
+    padding-top: 20px;
+    width: 500px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.hover-text {
+    visibility: hidden;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    color:black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 165%;
+    left: 40%;
+    transform: translateX(-80%);
+    transform: translateY(-1%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.item:hover .hover-text {
+    visibility: visible;
+    opacity: 1;
+}

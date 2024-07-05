@@ -1,0 +1,116 @@
+.Contenedor-Formulario-Registrar{
+    background-color: white;
+    width: 700px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.Registrar{
+    display: flex;
+    justify-content: center;
+}
+.Input-Formulario{
+    width: 100%;
+    margin: 10px;
+}
+.Contenedor-Formulario-Registrar .Input-Ojo{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+.Grupo {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+}
+.Grupo-Dividido {
+    display: flex;
+    width: 100%;
+}
+label{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.Formulario-Registrar{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Label-derecha{
+    display: flex;
+    padding-right: 165px;
+}
+.Label-Dividido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.Seccion-Baja {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+}
+.Seccion-Baja p{
+  padding-top: 15px;
+}
+.Seccion-Baja p:hover{
+  color: blue;
+  cursor: pointer;
+}
+select{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    margin: 10px;
+    height: 40px;
+    padding: 8px;
+    background-color: #eeeeee;
+    border: 1px solid black;
+    appearance: none;
+}
+.Boton-Ojo{
+    position: absolute;
+    margin-right: 10px;
+}
+.Input-Contraseña{
+    width: 100%;
+}
+.Icono-Contraseña {
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.Mensaje{
+  padding-left: 10px;
+  font-weight: bold;
+  color: red;
+}
+.Mensaje-Dividido {
+    display: flex;
+    width: 100%;
+}
+.Validacion-Registrar {
+    flex: 1;
+}
+.Correcto{
+    border: 2px solid green;
+}
+.Incorrecto{
+    border: 2px solid red;
+}
+.Contenedor-ConfirmarCodigo{
+    display: flex;
+    gap: 10px;
+}
+.Input{
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,44 @@
+.contenedor-barra{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    justify-content:space-between;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 100px;
+    height: 20;
+    padding-left: 10px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.elemento-despliegue{
+    padding-top: 10px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icono-persona{
+    display: flex ;
+    margin-right: 50px ;
+}
+.Icono{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.boton-despliegue{
+    background-color: #ffffff !important;
+    color:black !important;
+    border: none !important;
+}
+.boton-despliegue:hover {
+    background-color: #c4c4c4 !important;
+}
+.items-drop:hover {
+    background-color: #c4c4c4 !important;
+    color: black !important;
+}

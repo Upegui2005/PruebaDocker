@@ -1,0 +1,96 @@
+.Formulario-MisSeguros{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.Buscador-MiSeguros{
+    position: relative;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.Contenedor-Titulo-Seguros{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    width: auto;
+    height: auto;
+}
+.Texto-Seguros-Seguros{
+    font-weight:bold;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.Cards-Seguros {
+    background-color: #eeeeee;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.Contenedor-Cards-Seguros {
+    max-width: 1290px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+.Titulo-Card-Seguros {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.Imagen-Seguros {
+    max-width: 50%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Contenedor-Imagen-Card-Seguros {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 200px;
+    margin: 15px;
+
+}
+.Seccion-Baja-Card{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start !important;
+    font-weight: bold;
+}
+.Titulo-Modal-Seguros{
+    font-weight: bold;
+}
+.Modal-Seguros .modal-dialog {
+    max-width: 80%; 
+    width: auto; 
+}
+.Contenido-Modal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Central{
+    flex-direction: column;
+    justify-content: center;
+}
+.Contenido-Modal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

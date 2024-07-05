@@ -1,0 +1,31 @@
+.Reestablecer{
+    display: flex;
+    justify-content: center;
+}
+.Reestablecer .Contenedor-Principal{
+    text-align: center;
+    background-color: white;
+    width: 420px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+h2{
+    padding-bottom: 10px;
+}
+.Boton-Formulario{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Boton-Ojo{
+    position: absolute;
+    margin-right: 10px;
+}
+.Input-Contraseña{
+    width: 100%;
+}
+.Icono-Contraseña {
+    transform: translateY(-50%);
+    cursor: pointer;
+}

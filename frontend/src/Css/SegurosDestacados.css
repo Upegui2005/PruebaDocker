@@ -1,0 +1,198 @@
+.Contenedor-Seguros-Destacados{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px; 
+    justify-content: center;
+    height: auto;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1500px){
+    .Contenedor-Seguros-Destacados{
+        display: flex;
+        margin-left: 20px;
+        width: 700px;
+    }
+    .Contenedor-Titulo{
+        width: 100px;
+    }
+
+}
+@media only screen and (max-width: 1400px){
+    .Contenedor-Seguros-Destacados{
+        display: flex;
+        margin-left: 20px;
+        width: 900px;
+    }
+    .Contenedor-Titulo{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .Contenedor-Seguros-Destacados{
+        display: flex;
+        margin-left: 20px;
+        width: 800px;
+    }
+    .Contenedor-Titulo{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .Contenedor-Seguros-Destacados{
+        display: flex;
+        margin-left: 20px;
+        width: 700px;
+    }
+    .Contenedor-Titulo{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .Contenedor-Seguros-Destacados{
+        display: flex;
+        margin-left: 20px;
+        width: 600px;
+    }
+    .Contenedor-Titulo{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .Contenedor-Seguros-Destacados{
+        display: flex;
+        margin-left: 20px;
+        width: 500px;
+    }
+    .Zona-Inferior{
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+    .Contenedor-Titulo{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .Contenedor-Seguros-Destacados{
+        display: flex;
+        margin-left: 20px;
+        width: 400px;
+    }
+    .Zona-Inferior{
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+    .Contenedor-Titulo{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .Contenedor-Seguros-Destacados{
+        display: flex;
+        margin-left: 20px;
+        width: 300px;
+    }
+    .Zona-Inferior{
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+    .Contenedor-Titulo{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .Contenedor-Seguros-Destacados{
+        display: flex;
+        margin-left: 20px;
+        width: 200px;
+    }
+    .Zona-Inferior{
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+    .Contenedor-Titulo{
+        width: 100px;
+    }
+}
+.Contenedor-Titulo{
+    background-color: #eeeeeeee;
+    border-radius: 10px;
+    width: 1200px;
+    height: auto;
+    text-align: center;
+    font-size: 10px;
+}
+.Titulo{
+    font-size: 20px;
+}
+.Contenedor-Card-Seguros{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    background-color:#eeeeeeee;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+
+}
+.Contenedor-Imagen-Seguros{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.Texto-Card-Seguros{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Precio-Seguro{
+    margin-left:10px;
+}
+.Imagen-Card-Seguros {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    display: block;
+}
+.Contenedor-Imagen-Seguros:hover .Overlay {
+    opacity: 0.8;
+}
+.Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#ffffff;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 15px;
+}
+.Contenedor-Imagen-Seguros:hover .Imagen-Card-Seguros {
+    background-color: #388ee4;
+}
+.Boton-Centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    padding: 10px 20px;
+    background-color: #7abaf8;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Contenedor-Imagen-Seguros:hover .Boton-Centro {
+    display: block; /* Mostrar el botón al hacer hover */
+}

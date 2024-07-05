@@ -1,0 +1,121 @@
+.Zona-superior{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 70px;
+    margin-top: 20px;
+    width: auto;
+    height: 200px;
+    justify-content: space-between;
+}
+.Contenedor-Imagen{
+    display: block;
+    flex-direction: row;
+    align-content: center;
+    /*margin-left: auto;*/
+}
+.imagen{
+    width: auto;
+    height: 200px; 
+}
+
+@media only screen and (max-width: 1260px){
+    .imagen{
+        width: 350px;
+        height: 170px;
+    }
+}
+
+@media only screen and (max-width: 1040px){
+    .imagen{
+        width: 300px;
+        height: 150px;
+    }
+}
+@media only screen and (max-width: 990px){
+    .imagen{
+        width: 200px;
+        height: 120px;
+    }
+}
+.Formulario-Buscador{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Contenedor-Info{
+    margin: 20px;
+}
+.Buscar{
+    padding-right: 30px;
+    width: 100%; 
+}
+.Icono-Buscar{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-70%);
+    cursor: pointer;
+}
+.Boton-Buscar{
+    margin-left: 10px;
+    background-color: #7abaf8;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    border: none; 
+    font-weight: bold;
+}
+.Titulo{
+    font-size: 35px;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+.Buscador{
+    position: relative;
+    display: inline-block;
+}
+.Cuerpo-Vista{
+    margin: 30px;
+    margin-top: 20px;
+    display: flex;
+    width: auto;
+    height: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Zona-Inferior{
+    margin-top: 100px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around
+}
+@media only screen and (max-width: 1000px){
+    .Cuerpo-Vista{
+        margin-top: 20px;
+    }
+    .Zona-Inferior{
+        margin-top: 140px;
+    }
+    h3{
+        margin-top: 140px;
+    }
+}
+@media only screen and (max-width:700px) {
+        h3{
+            margin-top: 200px;
+        }
+        .Zona-Inferior{
+            margin-top: 270px;
+        }
+}
+@media only screen and (max-width:375px) {
+    .Zona-Inferior{
+        margin-top: 800px;
+    }
+}
+

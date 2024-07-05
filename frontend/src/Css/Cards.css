@@ -1,0 +1,38 @@
+.Cards {
+    background-color: #eeeeee;
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.Contenedor-Cards {
+    max-width: 1290px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Titulo-Card {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.Imagen {
+    max-width: 50%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Contenedor-Imagen-Card {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+}

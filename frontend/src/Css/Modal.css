@@ -1,0 +1,49 @@
+.Cerrar{
+    background-color: red;
+    border: none;
+}
+.Cerrar:hover{
+    background-color: rgb(255, 62, 62);
+}
+.reenviar{
+    text-align: center;
+    padding-top: 10px;
+}
+.Reenviar-Correo:hover{
+    cursor: pointer;
+    color: blue;
+}
+.Boton-Modal{
+    color: black;
+    border: none;
+    background-color: #7abaf8;
+}
+.Boton-Modal:hover{
+    background-color: #198cff;
+}
+.Label-Modal{
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.Formulario-Modal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.Titulo-Modal{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.Mensaje-Recuperar{
+    font-weight:bold;
+    padding-bottom: 10px;
+}
+.mensaje {
+    color:red;
+}
+.mensaje-enviado {
+    color: green;
+    text-align: center;
+}
